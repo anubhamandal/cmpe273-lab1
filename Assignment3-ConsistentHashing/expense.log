@@ -1,0 +1,88 @@
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 212-758-991
+INFO:werkzeug: * Running on http://0.0.0.0:5005/ (Press CTRL+C to quit)
+INFO:Proxy:Fetching http://192.168.99.100:5001/v1/expenses
+INFO:Proxy:got shard id as 4
+INFO:Proxy:Response 201
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2016 02:16:24] "POST /v1/expenses HTTP/1.1" 201 -
+INFO:Proxy:Fetching http://192.168.99.100:5001/v1/expenses
+INFO:Proxy:got shard id as 4
+INFO:Proxy:Response 201
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2016 02:17:25] "POST /v1/expenses HTTP/1.1" 201 -
+INFO:Proxy:Fetching http://192.168.99.100:5000/v1/expenses
+INFO:Proxy:got shard id as 2
+INFO:Proxy:Response 201
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2016 02:17:42] "POST /v1/expenses HTTP/1.1" 201 -
+INFO:Proxy:Fetching http://192.168.99.100:5001/v1/expenses
+INFO:Proxy:got shard id as 4
+INFO:Proxy:Response 201
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2016 02:18:01] "POST /v1/expenses HTTP/1.1" 201 -
+INFO:Proxy:Fetching http://192.168.99.100:5000/v1/expenses
+INFO:Proxy:got shard id as 2
+INFO:Proxy:Response 201
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2016 02:18:17] "POST /v1/expenses HTTP/1.1" 201 -
+INFO:Proxy:Fetching http://192.168.99.100:5000/v1/expenses
+INFO:Proxy:got shard id as 2
+INFO:Proxy:Response 201
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2016 02:18:32] "POST /v1/expenses HTTP/1.1" 201 -
+INFO:Proxy:Fetching http://192.168.99.100:5001/v1/expenses
+INFO:Proxy:got shard id as 4
+INFO:Proxy:Response 201
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2016 02:18:45] "POST /v1/expenses HTTP/1.1" 201 -
+INFO:Proxy:Fetching http://192.168.99.100:5001/v1/expenses
+INFO:Proxy:got shard id as 4
+INFO:Proxy:Response 201
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2016 02:18:57] "POST /v1/expenses HTTP/1.1" 201 -
+INFO:Proxy:Fetching http://192.168.99.100:5001/v1/expenses
+INFO:Proxy:got shard id as 3
+INFO:Proxy:Response 201
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2016 02:19:09] "POST /v1/expenses HTTP/1.1" 201 -
+INFO:Proxy:Fetching http://192.168.99.100:5000/v1/expenses
+INFO:Proxy:got shard id as 2
+INFO:Proxy:Response 201
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2016 02:19:21] "POST /v1/expenses HTTP/1.1" 201 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\DuKE\\Documents\\anubha_sjsu\\cmpe273\\cmpe273_A3\\proxy.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 212-758-991
+INFO:werkzeug: * Running on http://0.0.0.0:5005/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\DuKE\\Documents\\anubha_sjsu\\cmpe273\\cmpe273_A3\\proxy.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 212-758-991
+INFO:werkzeug: * Running on http://0.0.0.0:5005/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 212-758-991
+INFO:werkzeug: * Running on http://0.0.0.0:5005/ (Press CTRL+C to quit)
+INFO:Proxy:Processing GET on http://192.168.99.100:5001/v1/expenses/1/4
+INFO:Proxy:Response 200
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2016 02:20:54] "GET /v1/expenses/1 HTTP/1.1" 200 -
+INFO:Proxy:Processing GET on http://192.168.99.100:5001/v1/expenses/2/4
+INFO:Proxy:Response 200
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2016 02:21:46] "GET /v1/expenses/2 HTTP/1.1" 200 -
+INFO:Proxy:Processing GET on http://192.168.99.100:5000/v1/expenses/3/2
+INFO:Proxy:Response 200
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2016 02:22:21] "GET /v1/expenses/3 HTTP/1.1" 200 -
+INFO:Proxy:Processing GET on http://192.168.99.100:5001/v1/expenses/4/4
+INFO:Proxy:Response 200
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2016 02:22:38] "GET /v1/expenses/4 HTTP/1.1" 200 -
+INFO:Proxy:Processing GET on http://192.168.99.100:5000/v1/expenses/5/2
+INFO:Proxy:Response 200
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2016 02:23:12] "GET /v1/expenses/5 HTTP/1.1" 200 -
+INFO:Proxy:Processing GET on http://192.168.99.100:5000/v1/expenses/6/2
+INFO:Proxy:Response 200
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2016 02:23:53] "GET /v1/expenses/6 HTTP/1.1" 200 -
+INFO:Proxy:Processing GET on http://192.168.99.100:5001/v1/expenses/7/4
+INFO:Proxy:Response 200
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2016 02:24:16] "GET /v1/expenses/7 HTTP/1.1" 200 -
+INFO:Proxy:Processing GET on http://192.168.99.100:5001/v1/expenses/8/4
+INFO:Proxy:Response 200
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2016 02:24:32] "GET /v1/expenses/8 HTTP/1.1" 200 -
+INFO:Proxy:Processing GET on http://192.168.99.100:5001/v1/expenses/9/3
+INFO:Proxy:Response 200
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2016 02:24:52] "GET /v1/expenses/9 HTTP/1.1" 200 -
+INFO:Proxy:Processing GET on http://192.168.99.100:5000/v1/expenses/10/2
+INFO:Proxy:Response 200
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2016 02:25:10] "GET /v1/expenses/10 HTTP/1.1" 200 -
